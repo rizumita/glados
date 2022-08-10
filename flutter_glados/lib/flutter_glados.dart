@@ -1,0 +1,30 @@
+library flutter_glados;
+
+export 'package:flutter_test/src/_goldens_io.dart' if (dart.library.html) 'src/_goldens_web.dart';
+export 'package:flutter_test/src/accessibility.dart';
+export 'package:flutter_test/src/all_elements.dart';
+export 'package:flutter_test/src/animation_sheet.dart';
+export 'package:flutter_test/src/binding.dart';
+export 'package:flutter_test/src/controller.dart';
+export 'package:flutter_test/src/deprecated.dart';
+export 'package:flutter_test/src/event_simulation.dart';
+export 'package:flutter_test/src/finders.dart';
+export 'package:flutter_test/src/frame_timing_summarizer.dart';
+export 'package:flutter_test/src/goldens.dart';
+export 'package:flutter_test/src/image.dart';
+export 'package:flutter_test/src/matchers.dart' hide isInstanceOf;
+export 'package:flutter_test/src/nonconst.dart';
+export 'package:flutter_test/src/platform.dart';
+export 'package:flutter_test/src/restoration.dart';
+export 'package:flutter_test/src/stack_manipulation.dart';
+export 'package:flutter_test/src/test_async_utils.dart';
+export 'package:flutter_test/src/test_default_binary_messenger.dart';
+export 'package:flutter_test/src/test_exception_reporter.dart';
+export 'package:flutter_test/src/test_pointer.dart';
+export 'package:flutter_test/src/test_text_input.dart';
+export 'package:flutter_test/src/test_vsync.dart';
+export 'package:flutter_test/src/widget_tester.dart' hide expect, expectLater;
+export 'package:flutter_test/src/window.dart';
+export 'package:glados/glados.dart';
+
+export 'src/glados_widget_test.dart';
